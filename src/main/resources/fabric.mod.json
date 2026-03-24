@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "holoreader",
+  "version": "1.0.0",
+  "name": "HoloReader",
+  "description": "Читает текст с голограмм",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.example.holoreader.HoloReaderMod"],
+    "client": ["com.example.holoreader.HoloReaderClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.x"
+  }
+}
